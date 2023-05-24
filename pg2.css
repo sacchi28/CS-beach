@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  body {
+    background:#ffffff;
+  }
+
+.carousel {
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    width: 100%;
+  }
+
+  .card {
+    flex: 0 0 300px;
+    margin-right: 10px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 20px;
+    scroll-snap-align: start;
+  }
+
+  .card h3 {
+    margin-top: 0;
+  }
+  card .caixa h3{
+      border-radius: 10px;
+  }
+
+  .card p {
+    margin-bottom: 0;
+  }
+
+  .color-circle {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #000000; 
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+  }
